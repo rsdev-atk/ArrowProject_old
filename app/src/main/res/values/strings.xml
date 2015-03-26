@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Занимательный русский язык</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_arrow_offiline_test">Ударения: тестирование</string>
+    <string name="title_activity_arrow_offline_test_result">Ударения: результаты</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_arrow_test_report">Ударения: работа над ошибками</string>
+    <string name="title_activity_sinonim_offline_test">Синонимы: тестирование</string>
+    <string name="title_activity_arrow_dictionary">Ударения: словарь</string>
+    <string name="title_activity_synonim_dictionary">Синонимы: словарь</string>
+</resources>

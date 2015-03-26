@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.rsdev.arrowproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ArrowOffilineTestActivity"
+            android:label="@string/title_activity_arrow_offiline_test" >
+        </activity>
+        <activity
+            android:name=".ArrowOfflineTestResultActivity"
+            android:label="@string/title_activity_arrow_offline_test_result" >
+        </activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".ArrowTestReport"
+            android:label="@string/title_activity_arrow_test_report" >
+        </activity>
+        <activity
+            android:name=".SinonimOfflineTestActivity"
+            android:label="@string/title_activity_sinonim_offline_test" >
+        </activity>
+        <activity
+            android:name=".ArrowDictionaryActivity"
+            android:label="@string/title_activity_arrow_dictionary" >
+        </activity>
+        <activity
+            android:name=".SynonimDictionaryActivity"
+            android:label="@string/title_activity_synonim_dictionary" >
+        </activity>
+    </application>
+
+</manifest>
