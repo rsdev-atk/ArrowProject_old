@@ -59,6 +59,7 @@ public class SinonimOfflineTestActivity extends ActionBarActivity {
         button8 = (Button)findViewById(R.id.button8);
         editText3 = (EditText)findViewById(R.id.editText3);
 
+
         //Извлекаем ресурсы изображений
         negative = getResources().getIdentifier("no_test", "drawable", getPackageName());
         positive = getResources().getIdentifier("ok_test", "drawable", getPackageName());
